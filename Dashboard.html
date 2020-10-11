@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Strap</title>
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    	<script src="C:\Users\TRBs\Desktop\project1\js\Dashjavascript.js"></script>
+
+
+         
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+                  <link rel="stylesheet" type="text/css" href="    \Users\TRBs\Desktop\project1\css\bootstrap.css">
+    <style type="text/css">
+    	body{
+    		background-color: #F4F4F4;
+    		font-family: arial;
+    		padding:0;
+    		margin:0;
+    	}
+    	.header{
+    		width: 100%;
+        visibility: visible;
+        display: block;
+
+    	}
+        .header a {
+        	visibility: visible;
+        	margin-top:  5px;
+			padding-right: 5px;
+		    text-align: center;
+			padding-bottom: 5px;
+			display: block;
+			color: white;
+			text-decoration: none;
+			padding-left: 5px;
+			float: left;
+			
+		}
+		a:hover{
+
+			color: lightgray;
+		}
+        
+        .sidelogo{
+        margin-top:0px;
+        margin-left:20px;
+        width:20px;
+        float: left;
+        position: absolute;
+        visibility:hidden;
+        }
+        .sidelogo div:nth-child(1){
+        position: ;
+        margin-top: 10px;
+        height:2px;
+        background-color:white;
+        }
+        .sidelogo div:nth-child(2){
+        
+        margin-top: 3px;
+        position: ;
+        height:2px;
+        background-color:white;
+        }
+        .sidelogo div:nth-child(3){
+        
+        height:2px;
+        margin-top: 3px;
+        position: ;
+        background-color:white;
+        }
+    	@media screen and (max-width: 700px)
+		{
+			
+			#boxes .box{
+				width: 100%;
+				display: inline;
+				float: none;
+			}
+			.header a{
+				width: 100%;
+			}
+			.header{
+        visibility: hidden;
+			}
+			.sidelogo div{
+			visibility:visible;
+			}
+			#row1{
+				visibility: ;
+				height: 30px;
+			}
+		}
+		#row1{
+			height: ;
+			visibility: ;
+			background-color: #E74C3C;
+		}
+
+    </style>
+   
+</head>
+<body>
+<div class="row" id="row1">
+	<div class="col-md-11"></div>
+	<div class="col-md-1">
+		<div class="sidelogo">
+<div class="main-box">
+	<div class="box1"></div>
+<div class="box1"></div>
+
+<div class="box1"></div>
+
+</div>
+</div>
+	</div>
+</div>
+<div class="container-fluid" style="background-color: #E74C3C;position: relative;">
+	<div class="container">
+		
+
+
+	<header >
+		
+		<div class="header">
+			<a href ="#" style="font-size: 18px;">AdminStrap </a>
+			<a href ="#" style="margin-top: 10px;">Dashboard </a>
+			<a href ="#" style="margin-top: 10px;">Pages </a>
+			<a href ="#" style="margin-top: 10px;">Posts </a>
+			<a href ="#" style="margin-top: 10px;">Users </a>
+			<a href ="loginForm.html" style="float: right;margin-top: 10px;">Logout </a>
+			<a href ="#" style="float: right;margin-top: 10px;">Welcome,<span class="user"></span> </a>
+
+
+
+
+			
+
+		</div>
+		</div>
+	</div>
+	<div class="container-fluid" style="background-color: #333333;">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10">
+					<h1 style="color:white;padding-bottom: 10px;"><span class="glyphicon glyphicon-cog" aria-hidden="true" style="color:white;padding-right: 10px;"></span>Dashboard <small>Manage Your Site</small></h1>
+				</div>
+				<div class="col-md-2">
+					<button class="btn btn-default" style="margin-top: 20px;margin-bottom: 5px;">Create Content <span class="caret"></span></button>
+				</div>
+
+ 	    </div>
+	</div>
+	</div>
+	<div class="container">
+  <div class="well well-sm" style="background-color: lightgray;color:gray;margin-top: 15px;">Dashboard</div>
+	</div>
+	<div class="container" style="margin-top: 0px;">
+		<div class="row">
+			<div class="col-md-3">
+				<ul class="list-group">
+                         <li class="list-group-item" style="background-color: #E74C3C;color:white;"> <span class="glyphicon glyphicon-cog" style="margin-right: px;"></span> Dashboard</li>
+                         <li class="list-group-item"><span class="glyphicon glyphicon-list-alt" style="margin-right: 5px;"></span><span>Pages </span> <span class="badge">5</span></li> 
+                         <li class="list-group-item"><span class="glyphicon glyphicon-pencil" style="margin-right: 5px;"></span><span>Posts </span> <span class="badge">5</span></li>
+                         <li class="list-group-item"><span class="glyphicon glyphicon-user" style="margin-right: 5px;"></span><span>Users </span> <span class="badge">5</span></li> 
+                </ul> 
+                <div class="well">
+                	<h4>Disk Space Used</h4>
+                	<div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                      aria-valuemin="0" aria-valuemax="100" style="width:60%;background-color:#333333;">
+                        60%
+                      </div>
+                    </div>  
+                    <h4>Bandwidth Used</h4>
+                	<div class="progress">
+                      <div class="progress-bar" role="progressbar" aria-valuenow="70"
+                      aria-valuemin="0" aria-valuemax="100" style="width:40%;background-color: #333333;">
+                        40%
+                      </div>
+                    </div>                        
+                </div>                      
+
+			</div>
+			<div class="col-md-9">
+				<div class="panel panel-default" >
+                     <div class="panel-heading" style="background-color:#E74C3C;color:white;">Website Over View</div>
+                  
+                 <div class="panel-body">
+                <div class="col-md-3">
+                  <div class="well dash-box" style="text-align: center;">
+                    <h2><span class="glyphicon glyphicon-user" aria-hidden="true"></span> 203</h2>
+                    <h4>Users</h4>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="well dash-box" style="text-align: center;">
+                    <h2><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> 12</h2>
+                    <h4>Pages</h4>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="well dash-box" style="text-align: center;">
+                    <h2><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span> 33</h2>
+                    <h4>Posts</h4>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="well dash-box" style="text-align: center;">
+                    <h2><span class="glyphicon glyphicon-stats" aria-hidden="true"></span> 12,334</h2>
+                    <h4>Visitors</h4>
+                  </div>
+                </div>
+              </div>    
+          </div>
+                    <div class="panel-heading">
+                  <h3 class="panel-title">Latest Users</h3>
+                </div>
+                <div class="panel-body">
+                  <table class="table table-striped table-hover">
+                      <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Joined</th>
+                      </tr>
+                      <tr>
+                        <td>Jill Smith</td>
+                        <td>jillsmith@gmail.com</td>
+                        <td>Dec 12, 2016</td>
+                      </tr>
+                      <tr>
+                        <td>Eve Jackson</td>
+                        <td>ejackson@yahoo.com</td>
+                        <td>Dec 13, 2016</td>
+                      </tr>
+                      <tr>
+                        <td>John Doe</td>
+                        <td>jdoe@gmail.com</td>
+                        <td>Dec 13, 2016</td>
+                      </tr>
+                      <tr>
+                        <td>Stephanie Landon</td>
+                        <td>landon@yahoo.com</td>
+                        <td>Dec 14, 2016</td>
+                      </tr>
+                      <tr>
+                        <td>Mike Johnson</td>
+                        <td>mjohnson@gmail.com</td>
+                        <td>Dec 15, 2016</td>
+                      </tr>
+                    </table>
+                </div>
+              </div>
+		</div>
+	</div>
+	<div class="col-md-12" style="background-color: #F4F4F4;height: 50px;">
+	</div>
+	<div class="col-md-12" style="background-color: #333333;height: 30px;">
+	</div>
+	<div class="container-fluid" style="background-color: #333333;padding: 20px;">
+	<div class="col-md-12" style="padding:0px;">
+		<div class="col-md-4"></div>
+		<div class="col-md-3" style="text-align: center;">
+			<span style="color:white;margin-left: px;text-align: center;">Copyright AdminStrap, &copy;  2017</span>
+		</div>
+	</div>
+</div>
+
+
+ <script>
+$(document).ready(function(){
+
+  $(".sidelogo").click(function(){
+  $(".header").css("visibility","visible").toggle('slow');
+  });
+});
+
+
+
+</script>
+</body>
+</html>

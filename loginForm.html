@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3D Form</title>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <style type="text/css">
+    	body{
+    		background-color: #F4F4F4;
+    		padding:0;
+    		margin:0;
+    		font-family: arial;
+    	}
+    	a{
+    		color:white;
+    	}
+    	a:hover{
+    		color:lightgray;
+    	}
+    	input[type="submit"]
+    	{
+    		cursor: pointer;
+    	}
+    </style>
+   
+    	
+</head>
+
+<body>
+<div class="container-fluid" style="background-color: #E74C3C">
+	<div class="container">
+		
+			<h5 style="color:white;font-size: 17px;"><a href="#" style="text-decoration: none;">AdminStrap</a></h5>
+		</div>
+	</div>
+	<div class="header">
+		<div class="container-fluid" style="background-color:#333333">
+			<div class="row">
+				<div class="col-md-4"></div>
+				<div class="col-md-7">
+					<h1 style="float: left;color: white;padding-left: 25px;font-size: 33px;">Admin Area</h1><h3 style="line-height: 45px;color: gray;padding-left:5px;float: left;">Account Login</h3>
+
+
+				</div>
+				<div class="col-md-1">
+				</div>
+			</div>
+			</div>
+		</div>
+	<div class="row">
+		<div class="col-md-4"></div>
+		<div class="col-md-4" style="margin-top: 50px;padding:30px;margin-left:0px;">
+			<form name="myForm" class="well" action="Dashboard.html">
+				<div class="form-group">
+                     <label>Email Address</label>
+                     <input type="email" name="email1" placeholder="Enter Email" class="form-control" style=" " required="">
+                     <label>Password</label>
+                     <input type="password" name="password" placeholder="Password" class="form-control" id="password" required="">
+               			 <input type="submit"  style="margin-top: 20px;" value="Submit"onsubmit=" return submit()">
+
+				</div>
+			</form>
+
+		</div>
+	</div>	
+<div class="container-fluid" style="height: 50px;background-color: white;"></div>	
+<div class="container-fluid" style="background-color: #333333;padding: 30px;">
+	<div class="col-md-12">
+		<div class="col-md-4"></div>
+		<div class="col-md-3">
+			<span style="color:white;margin-left: 40px;">Copyright AdminStrap, &copy;  2017</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>
